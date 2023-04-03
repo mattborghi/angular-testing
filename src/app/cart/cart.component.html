@@ -1,5 +1,9 @@
 <h3>Cart</h3>
 
+<p>
+  <a routerLink="/shipping">Shipping prices</a>
+</p>
+
 <p *ngIf="items.length === 0">There are no items in the cart!</p>
 
 <div class="cart-item" *ngFor="let item of items">
